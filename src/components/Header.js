@@ -8,23 +8,23 @@ const Header = () => {
       <div className="max-w-5xl mx-auto">
         <Navbar fluid className="bg-transparent">
           <Navbar.Brand className="h-12">
-            <span className="font-normal self-center text-lg text-white">
+            <span className="font-normal self-center text-lg text-rose-100">
               MIT BioMakers
             </span>
           </Navbar.Brand>
 
-          <Navbar.Toggle className="text-white rounded-none hover:bg-emerald-900 focus:ring-0" />
+          <Navbar.Toggle className="text-rose-100 rounded-none hover:bg-emerald-900 focus:ring-0" />
 
           <Navbar.Collapse>
             <Navbar.Link
-              className="font-light text-white md:hover:text-emerald-100 border-0 hover:bg-emerald-900"
+              className="font-light text-rose-100 md:hover:text-emerald-100 border-0 hover:bg-emerald-900"
               href="#"
             >
               Home
             </Navbar.Link>
 
             <Navbar.Link
-              className="font-light text-white md:hover:text-emerald-100 border-0 hover:bg-emerald-900"
+              className="font-light text-rose-100 md:hover:text-emerald-100 border-0 hover:bg-emerald-900"
               target="_blank"
               href="https://giving.mit.edu/search/node/2860813"
             >

@@ -12,5 +12,5 @@
 }
 
 .day, .day-name {
-    @apply bg-stone-200 border-stone-50;
+    @apply bg-rose-200 border-rose-100 !important;
 }
