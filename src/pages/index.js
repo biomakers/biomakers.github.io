@@ -122,7 +122,7 @@ const IndexPage = () => {
               <p className="font-bold mb-2">Utility</p>
               <ul>
                 <li>Autoclave</li>
-                <li>Milli-Q waster</li>
+                <li>Milli-Q water</li>
                 <li>Ice machine</li>
                 <li>Dishwasher</li>
               </ul>
