@@ -11,6 +11,15 @@
     @apply bg-emerald-800 text-white;
 }
 
+.calendar {
+    @apply border-0;
+}
+
 .day, .day-name {
     @apply bg-rose-200 border-rose-100 !important;
+}
+
+.day {
+    padding-right: 10px;
+    padding-left: 10px;
 }

@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import * as React from "react";
-import Calendar from "@ericz1803/react-google-calendar";
 
 const Section = ({ children }) => {
   return (
@@ -11,11 +10,6 @@ const Section = ({ children }) => {
   );
 };
 const IndexPage = () => {
-  const API_KEY = "AIzaSyCa0M2tj3j3LKNliS3-YHXreeDHdMWgrfw";
-  const calendars = [
-    { calendarId: "35bg4nr3dd5usovi6sug5feo8o@group.calendar.google.com" },
-  ];
-
   return (
     <div className="min-h-screen bg-rose-100 min-w-[24rem]">
       <Header />
@@ -318,18 +312,15 @@ const IndexPage = () => {
             so check back frequently for additional offerings!
           </p>
 
-          <Calendar
-            styles={{
-              calendar: { border: "none" },
-              day: {
-                paddingLeft: "10px",
-                paddingRight: "10px",
-              },
-            }}
-            showFooter={false}
-            apiKey={API_KEY}
-            calendars={calendars}
-          />
+          <iframe
+            className="mx-auto pb-4"
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showNav=1&showPrint=0&showDate=0&showCalendars=0&showTz=1&showTabs=0&src=MzViZzRucjNkZDV1c292aTZzdWc1ZmVvOG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%231db271"
+            style={{ borderWidth: 0 }}
+            width="100%"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
         </Section>
       </main>
 
