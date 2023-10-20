@@ -35,8 +35,9 @@ const GenesisPage = () => {
             >
               Fill out this form
             </a>{" "}
-            to indicate your interest in participating in Genesis 2024, and we
-            will follow up with team registration details in December!
+            to indicate your interest in participating in{" "}
+            <i>Genesis 2024: Symbiosis</i>, and we will follow up with team
+            registration details in December!
           </p>
         </Section>
 
