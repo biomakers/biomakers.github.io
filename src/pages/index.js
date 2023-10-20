@@ -5,17 +5,18 @@ import * as React from "react";
 const Section = ({ children }) => {
   return (
     <div className="py-4">
-      <div className="max-w-5xl mx-auto px-4">{children}</div>
+      <div className="max-w-5xl mx-auto px-6">{children}</div>
     </div>
   );
 };
+
 const IndexPage = () => {
   return (
     <div className="min-h-screen bg-rose-100 min-w-[24rem]">
       <Header />
       <main>
         <div>
-          <div className="max-w-5xl mx-auto px-4 flex flex-col justify-center h-[600px]">
+          <div className="max-w-5xl mx-auto px-6 flex flex-col justify-center h-[600px]">
             <p className="font-light text-6xl py-4">
               An open community of creators
             </p>
