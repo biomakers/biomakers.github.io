@@ -28,5 +28,11 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-485P6W5QLZ"],
+      },
+    },
   ],
 };

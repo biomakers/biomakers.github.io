@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { OutboundLink } from "gatsby-plugin-google-gtag";
 import * as React from "react";
 
 const Section = ({ children }) => {
@@ -27,14 +28,16 @@ const GenesisPage = () => {
         <Section>
           <p>
             Pre-registration is open!{" "}
-            <a
+            <OutboundLink
               href="https://forms.gle/bfeBZCH4HvSfnhmD6"
               target="_blank"
               rel="noreferrer"
-              className="underline bg-rose-200 text-emerald-800 p-[2px] rounded"
+              className="underline bg-rose-200 text-emerald-800
+              p-[2px] rounded"
             >
+              {" "}
               Fill out this form
-            </a>{" "}
+            </OutboundLink>{" "}
             to indicate your interest in participating in{" "}
             <i>Genesis 2024: Symbiosis</i>, and we will follow up with team
             registration details in December!
